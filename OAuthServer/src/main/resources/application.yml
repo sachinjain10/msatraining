@@ -1,0 +1,14 @@
+server:
+  port: 9190
+  context-path: /uaa
+security:
+  user:
+    name: sachin
+    password: sachin
+eureka:
+  client:
+    service-url:
+      defaultZone:  http://localhost:8761/eureka 
+      
+     
+      
