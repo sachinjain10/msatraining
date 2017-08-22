@@ -1,0 +1,20 @@
+server:
+  port: 9094
+eureka:
+  client:
+     service-url:
+      defaultZone:  http://localhost:8761/eureka 
+      
+spring:
+  kafka:
+    bootstrap-servers: localhost:9092
+    
+kafka:
+  topic:
+    helloworld: topic-test
+    json: json.t
+    partitioned: partition.t    
+    
+          
+     
+      
